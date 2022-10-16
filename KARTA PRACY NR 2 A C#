@@ -1,0 +1,132 @@
+1. (easy) Sprawdź czy suma dwóch wpisanych przez użytkownika 
+
+jest liczbą parzystą.
+	Wejście: a, b
+	Wyjście: TAK / NIE
+
+using System;
+
+
+class Program {
+  
+	public static void Main (string[] args) {
+   
+
+ Console.WriteLine("Wpisz 1 liczbę");
+ 
+    
+   int a = int.Parse(Console.ReadLine());
+  
+
+ Console.WriteLine("Wpisz 2 liczbę");
+    
+    
+   int b = int.Parse(Console.ReadLine());
+  
+    
+	if ((a+b) % 2 == 0)
+      
+{
+          
+Console.WriteLine("Jest parzystą");
+     
+ }
+  
+     
+ else
+     
+ {
+      
+  Console.WriteLine("Nie jest parzystą");
+   
+   }
+     
+ 
+  }
+ }
+
+
+
+2. (easy) Sprawdź, czy średnia arytmetyczna dwóch wpisanych 
+
+liczb jest wieksza od jej średniej geometrycz-nej.
+	Wejście: a,g
+	Wyjście: TAK / NIE
+
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    Console.WriteLine("Wpisz 1 liczbę");
+      int a = int.Parse(Console.ReadLine());
+    Console.WriteLine("Wpisz 2 liczbę");
+         int b = int.Parse(Console.ReadLine());
+      if ((a+b) / 2 > (a*b) * 0.5)
+      {
+          Console.WriteLine("TAK");
+      }
+  
+      else
+      {
+        Console.WriteLine("NIE");
+      }
+     
+  }
+}
+
+
+3. (easy) Użytkownik podaje 3 liczby całkowite. Sprawdź czy 
+
+dokładnie dwie z nich są sobie równe.
+	Wejście: k,l,m
+	Wyjście: TAK / NIE (wraz z podaniem tych dwóch równych 
+
+o ile są takowe)
+
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    Console.WriteLine("Wpisz 1 liczbę");
+      int a = int.Parse(Console.ReadLine());
+    
+    Console.WriteLine("Wpisz 2 liczbę");
+         int b = int.Parse(Console.ReadLine());
+    
+    Console.WriteLine("Wpisz 3 liczbę");
+         int c = int.Parse(Console.ReadLine());
+    
+      if (a==b && a==c && b==c && a==b==c )
+      {
+          Console.WriteLine("TAK");
+      }
+  
+      else
+      {
+        Console.WriteLine("NIE");
+      }
+     
+  }
+}
+
+4. (medium) Niech użytkownik wprowadzi 4 różne liczby 
+
+całkowite. Napisz program, który sprawdzi, któraz tych liczb 
+
+jest najmniejsza.
+	Wejście: a,b,c,d
+	Wyjście: najmniejsza z nich
+
+5. (medium) Sprawdź czy trzy wprowadzone przez użytkownika 
+
+liczby spełniają nierówność trójkąta.
+	Wejście: a, b, c
+	Wyjście: TAK / NIE
+
+6. (medium) Niech z trzech wprowadzonych przez użytkwnika 
+
+liczbach da się zbudować trójąt. Sprawdź czyten trójką jest 
+
+ostrokątny, prostokątny czy rozwartokątny.
+	Wejście: a, b, c
+	Wyjście: ostro-, prosto-, rozwarto-kątny
