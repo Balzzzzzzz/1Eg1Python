@@ -1,0 +1,19 @@
+# Zad 3
+int n = int.Parse(Console.ReadLine());
+for (int i = 1; i < n + 1; i++)
+{
+Console.Write(n % i == 0 ? i + " " : " ");
+}
+Console.ReadKey();
+
+# Zad 4
+int suma = 0;
+for (int i > 10; i < 100; i++)
+{
+    suma = suma + i ;
+}
+Console.WriteLine(suma);
+
+Console.ReadKey();
+
+# Zad 5
