@@ -1,0 +1,201 @@
+/*1. Napisz program, który sprawdzi, czy wpisana liczba jest podzialna przez 3.
+Wejście: a
+Wyjście: TAK / NIE*/
+
+
+using System.Collections.Generic;
+using System.Globalization;
+using System.Threading.Tasks;
+
+/*int x= int.Parse(Console.ReadLine());
+if (x % 3 == 0)
+{
+    Console.WriteLine("TAK")
+}
+else
+{
+    Console.WriteLine("NIE")
+}
+
+
+/*2. Napisz program, który sprawdzi, czy wpisana liczba jest trzycyfrowa i podzielna przez 17.
+Wejście: a
+Wyjście: TAK / NIE*/
+
+/*int m = int.Parse(Console.ReadLine());
+
+if (m>=100 && m<1000 && m%17==0)
+{
+    Console.WriteLine("TAK");
+}
+else
+{
+    Console.WriteLine("NIE");
+
+
+    /* 3.Napisz program, który sprawdzi, czy użytkownik jest osobą pełnoletnią.
+    Wejście: wiek
+    Wyjście: TAK / NIE*/
+
+/*Console.WriteLine("Ile masz lat?");
+int wiek = int.Parse(Console.ReadLine( ));
+if (wiek>=18)
+{
+    Console.WriteLine("TAK");
+}
+else
+{
+    Console.WriteLine("NIE");
+}
+
+/*4.Napisz program, który sprawdzi, czy ciężarówka może wjechać bezpiecznie na most. Max obciążenie mostu
+przyjmij na sztywno na 20 ton.Utwórz stałą o nazwie limit.
+Wejście: waga
+Wyjście: TAK / NIE
+
+
+const int LIMIT = 20;
+
+if (LIMIT <= 20) ;
+{
+    Console.WriteLine("TAK");
+}
+
+    else
+    {
+        Console.WriteLine("NIE");
+    }
+
+/*5.Napisz program, który sprawdzi, czy trzecia z podanych licz mieści się między pierwszą a drugą. Weź pod
+uwagę, że kolejność wpisywania dwóch pierwszych liczb może nie być zachowana.
+Przykłady:
+3 6 5 – TAK
+4 8 9 – NIE
+3 8 3 – NIE
+6 3 5 – TAK
+Wejście: a, b, c
+Wyjście: TAK / NI
+
+Console.WriteLine("Podaj 1 liczbę");
+    int a=int.Parse(Console.ReadLine());
+
+Console.WriteLine("Podaj 2 liczbę");
+int b = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Podaj 3 liczbę");
+int c = int.Parse(Console.ReadLine());
+
+if((a<c && b>c) || (b<c && a>c))
+{
+    Console.WriteLine("TAK");
+}
+else
+{
+    Console.WriteLine("NIE");
+}
+
+/*6.Napisz program, który sprawdzi, czy liczba pierwsza p spełnia Małe Twierdzenie Fermata. Stosujemy
+wersję MTF w formie: ”Jeśli p jest pierwsza to dla każdego a liczba a
+p − a jest podzielna przez p”.
+Wejście: a, p
+Wyjście: TAK / NIE
+
+int p = int.Parse(Console.ReadLine);
+int a = int.Parse(Console.ReadLine);
+
+if ((Math.Pow (a , p ) - a ) % p == 0 )
+    {
+        Console.WriteLine("Spełnia MFT");
+    }
+else
+    {
+        Console.WriteLine("Nie spełnia MFT")
+    }
+
+
+
+
+
+
+
+
+
+/*7.Bajtożabka osiowa oddaje tylko równe skoki o długości s wzdłuż osi. Napisz algorytm, który sprawdzi, czy
+żabka pokona zadany dystans w trzech skokach. Jako punkt startu przyjmujemy wartość p, a jako punkt
+końcowy punkt k, gdzie p, k, s >= 0
+Przykłady:
+0 100 40 – TAK
+0 60 20 – TAK
+10 50 15 – TAK
+30 100 20 – NIE
+Wejście: p, k, s
+Wyjście: TAK / NIE
+Dodatkowe dla chętnych: Podaj dodatkowo istotne Twoim zdaniem parametry rozwiązania w stylu ile
+żabce zabrakło do pokonania dystansu, o ile przekroczyła, ile skoków by wystarczyło, ile skoków zabrakło
+do celu, kolor żaby itp.
+
+
+
+int p =int.Parse(Console.ReadLine());
+int k = int.Parse(Console.ReadLine());
+int s = int.Parse(Console.ReadLine());
+ if((p-k) <= 3*s)
+{
+    Console.WriteLine("TAK");
+}
+else
+{
+    Console.WriteLine("NIE")
+}*/
+
+/*Pętla wypisująca cyfry
+
+for (int i=0; i < 10; i++)
+{
+    Console.WriteLine(i);
+}
+
+/*Pętla wypisująca liczby 2-cyfrowe malejąco
+
+for (int i = 99; i >= 10; i=i--)
+{
+    Console.WriteLine(i);
+}
+
+for (int J=10; J<100; J++)
+{
+    Console.WriteLine(109-j);
+}*/
+
+/*1. (Easy) Napisz program, który wypisze ciąg sześcianów liczb naturalnych powiększonych o 3
+Wejście: -
+Wyjście: 3, 4, 11...
+
+int n = int.Parse(Console.ReadLine());
+for (int i = 0; i<n; i++)
+{
+    Console.WriteLine(Math.Pow(i , 3) + 3);
+}*/
+
+/*2. (Easy) Napisz program, który wypisze wszytkie liczby trzycyfrowe podzielne przez 15.
+Wejście: -
+Wyjście: 105, 120, 135...
+
+
+for (int i = 105; i < 1000; i=i+15)
+{
+    Console.WriteLine(i);
+}
+
+3. (Medium) Napisz program, który wypisze wszyskie dzielniki podanej liczby n.
+Wejście: p
+Wyjście: dzielniki*/
+
+int n = int.Parse(Console.ReadLine());
+int p = int.Parse(Console.ReadLine());
+
+for (int i = n; i < n; i++)
+{
+    Console.WriteLine(Math.);
+}
+
