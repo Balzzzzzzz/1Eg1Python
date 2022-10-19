@@ -28,7 +28,7 @@ g = int(input())
       k = int(input())
 l = int(input())
 m = int(input())
-if (k=l and k=m and m=l and k=l=m):
+if (k==l and k==m and m==l):
   print("TAK")
 else:
   print("NIE")
