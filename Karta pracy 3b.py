@@ -1,67 +1,80 @@
-Zad 1
+# Zad 1
 
-for i in range(1,32):
+# for i in range(1,32):
  
- print(i)
+#  print(i)
 
 
-	Zad 2
-for i in range (0,1000):
+# 	Zad 2
+# for i in range (0,1000):
   
-  if i%2: 
+#   if i%2: 
     
-   print(i**2)
-  else:
+#    print(i**2)
+#   else:
   
-   print("")
+#    print("")
 
-print("Pętla została zakonczona")
+# print("Pętla została zakonczona")
 
-	Zad 3
-for i in range (1000,100000):
+# 	Zad 3
+# for i in range (1000,100000):
   
- if i % 379: 
+#  if i % 379: 
     
-  print("", end="")
+#   print("", end="")
   
- else:
+#  else:
     
-  print(i)
+#   print(i)
   
 
 
-print("Pętla została zakonczona")
+# print("Pętla została zakonczona")
 
-	Zad 4
+# 	Zad 4
 
-for i in range (100,1000):
+# for i in range (100,1000):
   
- if i % 5: 
+#  if i % 5: 
    
-   print("", end="")
+#    print("", end="")
   
- else:
+#  else:
    
-   print(i)
+#    print(i)
   
- if i % 6: 
+#  if i % 6: 
     
-   print("", end="")
+#    print("", end="")
   
- else:
+#  else:
     
-   print(i)
+#    print(i)
   
- if i % 11: 
+#  if i % 11: 
    
-   print("", end="")
+#    print("", end="")
   
- else:
+#  else:
   
-   print(i)
+#    print(i)
 
 
-print("Pętla została zakonczona")
+# print("Pętla została zakonczona")
 
 
-	Zad 5
+# zad 5
+#  suma = 0
+#  n = int(wejście())
+#  dla i w zakresie (n):
+#  a = int(wejście())
+#  suma = suma + a
+#  drukuj(suma)
+
+#  zad 6
+#  suma = 0
+#  k = int(wejście())
+#  dla i w zakresie (2,k*2+2,2):
+# suma = suma + i
+# # drukuj(suma)
