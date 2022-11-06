@@ -36,6 +36,151 @@ class Program {
 
 Zad 3
 
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    for (int i = 1000 ; i <= 10000 ; i++)
+     if ( i % 379 == 0 )
+     {
+        Console.WriteLine(i);
+     } 
+       else
+       {
+          Console.WriteLine( "" );
+       }
+  }
+}
+
+Zad 4
+
+using System;
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+        for (int i = 100; i <= 1000; i++)
+            if ((i % 5 == 0) && (i % 6 == 0) || (i % 11 == 0))
+            {
+                Console.Write( i + "; ");
+            }
+            else
+            {
+               
+            }
+    }
+}
+
+Zad 5
+
+using System;
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+Console.Write("Wpisz ile liczb chcesz podać: ");
+int n = int.Parse(Console.ReadLine());
+int suma = 0;
+for (int i = 1; i <= n; i++)
+{
+  Console.Write("Wpisz liczbę: ");
+    Console.ReadLine();
+    suma = suma + i;
+}      
+Console.WriteLine("Suma tych liczb: " + suma);
+Console.WriteLine();
+    }
+}
+
+Zad 6
+
+using System;
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+Console.Write("Ilość liczb: ");
+int k = int.Parse(Console.ReadLine());
+int suma = 0;
+for (int i = 0; i <= (k * 2); i = i + 2)
+    suma = suma + i;
+Console.WriteLine("Suma: " + suma);
+Console.WriteLine();
+      
+    }
+}
+
+Zad 7
+
+using System;
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+Console.Write("Ilość liczb: ");
+int m = int.Parse(Console.ReadLine());
+int suma = 0;
+for (int i = 11; i <= (m * 2 + 10); i = i + 2)
+    suma = suma + i;
+Console.WriteLine("Suma: " + suma);
+Console.WriteLine();
+    }
+}
+
+Zad 8
+
+using System;
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+Console.Write("Kwota wejsciowa: ");
+ int w0 = int.Parse(Console.ReadLine());
+Console.Write("Ile lat: ");
+ int l = int.Parse(Console.ReadLine());
+double wartosc = w0;
+double k = 0;
+for (int i = 1; i <= l; i++)
+{
+    k = wartosc * 0.06;
+    wartosc = wartosc + k;
+}
+Console.WriteLine("Wartosc: " + Math.Round(wartosc, 2));
+Console.WriteLine();
+    }
+}
+
+Zad 9
+
+Console.Write("Ilosc liczb: ");
+int n = int.Parse(Console.ReadLine());
+int suma = 0;
+int temp = 0;
+for (int i = 0; i <= n; i++)
+    temp = i * 100 + 21;
+suma = suma + temp;
+Console.WriteLine("Suma: " + suma);
+Console.WriteLine();
+
+Zad 10
+
+using System;
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+for (int i = 1; i < 1000; i++)
+    if ((i % 100 == Math.Sqrt(i)) || (i % 10 == Math.Sqrt(i)))
+        Console.WriteLine(i);
+    }
+}
+
 
 
 
