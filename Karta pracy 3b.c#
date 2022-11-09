@@ -27,7 +27,7 @@ class Program {
      } 
        else
        {
-          Console.WriteLine( i * i );
+          Console.WriteLine( i ** 2 );
        }
      Console.WriteLine("Pętla zakączona !");
     Console.ReadKey();
