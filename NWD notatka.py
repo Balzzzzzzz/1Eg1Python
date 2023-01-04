@@ -1,4 +1,4 @@
-
+-> W sposób odejmowania
 
 a,b = int(input()), int(input())
 while a != b:
@@ -17,7 +17,7 @@ print(a)
 
 19 % 20 = 19
 
-
+-> W sposób modulo
 a,b = int(input()), int(input())
 while b > 0:
   a,b = b , a % b
